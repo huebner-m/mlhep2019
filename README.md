@@ -1,3 +1,5 @@
+
+
 # MLHEP2019
 MLHEP'19 slides and notebooks
 
@@ -15,3 +17,11 @@ MLHEP'19 slides and notebooks
   * Model Zoo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/Practical_DL/blob/spring2019/week04_finetuning/seminar_pytorch.ipynb)
 * Day 4:
   * Bayesian 2 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/mlhep2019/blob/master/notebooks/day-4/Bayesian/SparseVD_assignment.ipynb)
+* Day 5
+  * Learning to Pivot:
+    * toy example 1: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/mlhep2019/blob/master/notebooks/day-5/pivot-toy-1.ipynb)
+    * toy example 2: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/mlhep2019/blob/master/notebooks/day-5/pivot-toy-2.ipynb)
+    * toy example 3: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/mlhep2019/blob/master/notebooks/day-5/pivot-toy-3.ipynb)
+    * SUSY exercise: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/mlhep2019/blob/master/notebooks/day-5/pivot-SUSY.ipynb)
+  * Language modeling [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/mlhep2019/blob/master/notebooks/day-5/language_model/lm.ipynb)
+  * Tracking [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yandexdataschool/mlhep2019/blob/master/notebooks/day-5/tracking/RNN_practice.ipynb)

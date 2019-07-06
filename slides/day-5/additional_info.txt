@@ -1,1 +1,23 @@
 Framework for model explanation: ELI5
+
+
+uncertainties:
+- brute force: vary input features (point by point) by gaussian noise (~million times) -> evaluate NN (leave
+  it fixed) -> plot output (maybe average it) -> repeat for all features
+  details:
+  - train NN in normal fashion
+  - leave NN as is
+  - determine uncertainty on input feature (see tau ID shape unc., for each
+    point we have a 'sigma' for a gaussian)
+  	- unsure if he meant as input feature uncertainty the distribution of input
+    	  points, probably not
+  - take one input feature (e.g. centfrac) and one point of that feature
+  - smear that point with a gaussian with sigma from before -> resulting
+    gaussian is centered around input point
+  - evaluate NN with all points from that gaussian, leaving other inputs as is
+  - average the output histogram
+
+- other possibility: for each point of each input feature calculate gradient of NN output w.r.t.
+  input feature (can possibly give upper bound); might not work properly since
+  NN is highly non-linear and gradients can be weird; not sure how to
+  calculate gradient and how to propagate the gradient to an uncertainty

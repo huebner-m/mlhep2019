@@ -21,3 +21,8 @@ uncertainties:
   input feature (can possibly give upper bound); might not work properly since
   NN is highly non-linear and gradients can be weird; not sure how to
   calculate gradient and how to propagate the gradient to an uncertainty
+
+
+Discriminate Z and H with NN: use Adversarial NN to remove dependency of
+classification on mass (give mass to adversarial); using pT/M worked even
+better for Hmumu (Miha, day 8)
